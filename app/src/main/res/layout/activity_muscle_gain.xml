@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageTraining"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/muscle"
+        android:contentDescription="@string/muscle_gain_training_description"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textTrainingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muscle Gain"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textTrainingDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/muscle_gain_training_description"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/startTrainingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/curvy"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

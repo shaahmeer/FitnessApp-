@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/mainimage"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="122dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:lineHeight="39dp"
+        android:text="Будь сильнее
+            Будь собой"
+        android:textColor="@color/white"
+
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/login"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Login"
+
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Register"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="43dp"
+        android:layout_toStartOf="@+id/Login"
+        android:background="@drawable/frame_5"
+        android:text="Register"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#FFFFFF" />
+
+
+
+</RelativeLayout>
+
+

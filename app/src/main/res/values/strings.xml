@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyFitness</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="yoga_description">
+        While it’s not commonly considered a weight loss exercise, yoga burns a fair amount of calories and offers many additional health benefits that can promote weight loss.\n\n
+        A 12-week study of 60 women with obesity found that those who participated in two 90-minute yoga sessions per week experienced greater reductions in waist circumference than those in the control group — by 1.5 inches (3.8 cm), on average.\n\n
+        The yoga group also experienced improvements in mental and physical well-being. In fact, studies have shown that yoga can teach mindfulness and reduce stress levels.\n\n
+        Most gyms offer yoga classes, but you can practice yoga anywhere. This includes from the comfort of your own home, as there are plenty of guided tutorials online.
+    </string>
+    <string name="model_body_title">Model Body</string>
+    <string name="model_body_description">Achieve a toned and sculpted physique with our Model Body training program. This program focuses on building lean muscle mass, reducing body fat, and enhancing overall body aesthetics. Follow our detailed workout plans, nutrition guides, and lifestyle tips to transform your body and boost your confidence. Suitable for all fitness levels, our Model Body program will help you look and feel your best.</string>
+    <string name="bulk_training_title">Bulk</string>
+    <string name="bulk_training_description">Build significant muscle mass and increase your strength with our Bulk training program. This program is designed to help you gain weight in the form of lean muscle through heavy lifting, high-volume workouts, and a protein-rich diet. Follow our structured plans to see substantial gains in size and power. Ideal for those looking to add serious muscle and bulk up effectively.</string>
+    <string name="muscle_gain_training_title">Muscle Gain</string>
+    <string name="muscle_gain_training_description">Achieve your muscle gain goals with our comprehensive training program. This program is tailored to help you increase muscle mass, improve strength, and enhance overall physical fitness. Through a combination of resistance training, progressive overload, and a balanced diet rich in protein, you\'ll be able to see significant improvements in muscle size and definition. Ideal for those looking to build a strong, muscular physique.</string>
+
+</resources>

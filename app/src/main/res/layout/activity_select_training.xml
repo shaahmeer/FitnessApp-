@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#262626"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Training"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_marginTop="16dp">
+
+        <!-- Yoga Option -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageYoga"
+                android:layout_width="133dp"
+                android:layout_height="93dp"
+                android:contentDescription="Yoga Image"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/yoga_image" />
+
+            <Button
+                android:id="@+id/buttonYoga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yoga"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <!-- Fat Loss Option -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageFatLoss"
+                android:layout_width="145dp"
+                android:layout_height="93dp"
+                android:contentDescription="Fat Loss Image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fatloss" />
+
+            <Button
+                android:id="@+id/buttonFatLoss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fat Loss"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <!-- Gain Muscle Option -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageGainMuscle"
+                android:layout_width="143dp"
+                android:layout_height="99dp"
+                android:contentDescription="Gain Muscle Image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/muscle" />
+
+            <Button
+                android:id="@+id/buttonGainMuscle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gain Muscle"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <!-- Bulk Option -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageBulk"
+                android:layout_width="148dp"
+                android:layout_height="94dp"
+                android:contentDescription="Bulk Image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bulk" />
+
+            <Button
+                android:id="@+id/buttonBulk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bulk"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <!-- Model Body Option -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageModelBody"
+                android:layout_width="145dp"
+                android:layout_height="93dp"
+                android:contentDescription="Model Body Image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/model" />
+
+            <Button
+                android:id="@+id/buttonModelBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Model Body"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
