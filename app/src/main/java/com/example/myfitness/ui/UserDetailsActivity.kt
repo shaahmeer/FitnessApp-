@@ -177,7 +177,7 @@ class UserDetailsActivity : AppCompatActivity() {
             chooseImage()
         }
 
-        // Handle video button click
+
         videoButton.setOnClickListener {
             chooseVideo()
         }
